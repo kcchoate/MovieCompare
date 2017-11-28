@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MovieCompare
 {
-    public partial class Form1 : Form
+    public partial class mainWindow : Form
     {
-        public Form1()
+        public mainWindow()
         {
             InitializeComponent();
+        }
+        
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
