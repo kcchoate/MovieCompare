@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCompare", "MovieCompare\MovieCompare.csproj", "{756AAF96-72EB-47D3-8D6F-99C8251B681E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFC9286C-4B6C-4DD8-BE11-FFFBD2A17547}"
+	ProjectSection(SolutionItems) = preProject
+		APIKey.txt = APIKey.txt
+		MovieList.json = MovieList.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -46,12 +46,12 @@
             // 
             this.txtMovieSearch.Location = new System.Drawing.Point(13, 30);
             this.txtMovieSearch.Name = "txtMovieSearch";
-            this.txtMovieSearch.Size = new System.Drawing.Size(100, 20);
+            this.txtMovieSearch.Size = new System.Drawing.Size(240, 20);
             this.txtMovieSearch.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(119, 29);
+            this.btnSearch.Location = new System.Drawing.Point(259, 29);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(59, 23);
             this.btnSearch.TabIndex = 2;
@@ -70,6 +70,7 @@
             this.Name = "mainWindow";
             this.ShowIcon = false;
             this.Text = "Movie Compare";
+            this.Load += new System.EventHandler(this.mainWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
